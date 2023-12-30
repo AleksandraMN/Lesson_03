@@ -5,20 +5,18 @@
    const quantity = 10;
    const category = 'продукты';
    const priceUnit = 290;
-   console.log(`Наименование товара: ${productName1}.`);
 
    const amount1 = quantity * priceUnit;
-   console.log(`Всего на общую сумму = ${amount1} рублей.`);
+   console.log(`На складе ${quantity} единиц(ы) товара "${productName1}" на сумму ${amount1} рублей.`);
 }
 {
    const productName2 = 'мандарины';
    const quantity = 24;
    const category = 'продукты';
    const priceUnit = 350;
-   console.log(`Наименование товара: ${productName2}.`);
 
    const amount2 = quantity * priceUnit;
-   console.log(`Всего на общую сумму = ${amount2} рублей.`);
+   console.log(`На складе ${quantity} единиц(ы) товара "${productName2}" на сумму ${amount2} рублей.`);
 }
 {
    const productName3 = (prompt("Введите наименование товара буквами русского алфавита", "")).toLowerCase();
@@ -29,5 +27,5 @@
    console.log('Цена единицы товара', priceUnit, typeof priceUnit);
 
    const amount3 = quantity * priceUnit;
-   console.log(`На складе ${quantity} единиц(ы) товара "${productName3}" на сумму = ${amount3} рублей.`);
+   console.log(`На складе ${quantity} единиц(ы) товара "${productName3}" на сумму ${amount3} рублей.`);
 }
